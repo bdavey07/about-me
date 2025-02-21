@@ -1,23 +1,24 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Benjamin Davey",
+  author: "Benjamin Davey",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "A well rounded Design Engineering Analyst with a passion for learning new things, trying things out, breaking and re-building things.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/ben.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
+    { text: "Testimonials", href: "#testimonials" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/daveyb/" },
+    { text: "Github", href: "https://github.com/bdavey07" },
+    { text: "Download Resume", href: "/Benjamin_Davey_Resume.pdf" },
+    { text: "Email Me", href: "mailto:ben@ben-cloud.net" },
+    { text: "Call Me", href: "tel:+15192726883" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
